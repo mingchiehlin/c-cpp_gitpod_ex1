@@ -10,5 +10,7 @@ if (time < 10) {
   printf("Good evening. \n");
 }
 // Outputs "Good evening."
-	return 0;
+//
+(time < 18) ? printf("Good day. \n") : printf("Good evening. \n");
+return 0;
 }
