@@ -15,7 +15,7 @@ class Account {
 };
 
 
-class Programmer: public Account {
+class Programmer: private Account {
    private:
    float bonus = 5000;
    public:
@@ -25,7 +25,7 @@ class Programmer: public Account {
 
 int main(void) {
      Programmer p1;
-     cout<<"Salary: "<<p1.salary<<endl;
+//     cout<<"Salary: "<<p1.salary<<endl;
 //     cout<<"Bonus: "<<p1.bonus<<endl;
      cout<<"Total Salary: "<<p1.totalSalary<<endl;
     return 0;
