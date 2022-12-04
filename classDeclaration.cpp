@@ -17,6 +17,6 @@ int main() {
 
   // Print values
   cout << myObj.myNum << "\n"; 
-  cout << myObj.myString << "\n"; 
+  cout << myObj.myString << endl; 
   return 0;
 }
