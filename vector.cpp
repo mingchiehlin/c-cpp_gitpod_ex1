@@ -10,9 +10,10 @@ int main(){
 	v.push_back(3);
 	v.push_back(4);
 	v.push_back(5);
-	
+	v.pop_back();
+	v.erase(v.begin()+2);	
 	for(i=0;i<v.size();i++){
-		printf("%d",v[i]);
+		printf("%d ",v[i]);
 	}
 	cout<<endl <<"Hello World! \n";
 	return 0;
